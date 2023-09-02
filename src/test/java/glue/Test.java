@@ -15,7 +15,8 @@ public class Test {
     private WebElement boton;
     private String usu,pass;
     @Given("el usuario se encuentra en la pagina principal")
-    public void el_usuario_se_encuentra_en_pagina_principal() {
+    public void el_usuario_se_encuentra_en_la_pagina_principal() {
+
         System.setProperty("webdriver.chrome.driver","C:\\Users\\ZIP-B205-E-018\\IdeaProjects\\InicioSesionClase\\src\\test\\java\\resource\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
